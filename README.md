@@ -1,5 +1,9 @@
 # BrandSentinel
 
+AI-assisted brand governance for marketing teams: verify claims against approved facts, check brand guidelines, and manage evidence-backed reviews and approvals before publication.
+
+**[Live demo](https://thebrandsentinel.vercel.app)** · **[GitHub repository](https://github.com/DhruvMht/brand_sentinel)**
+
 **Team ChaturYukti** (Akshat Dhoka, Dhruv Mehta, Moksh Soni) · Inkloom AI problem statement: *intelligent brand governance before publication*
 
 BrandSentinel checks marketing content against a versioned store of approved facts and brand rules before it is
@@ -71,8 +75,8 @@ every review still runs its rule checks and claim verification, and the AI judge
 **1. Get the code and create the database**
 
 ```bash
-git clone https://github.com/MOKSHSoni/BrandSentinel.git
-cd BrandSentinel
+git clone https://github.com/DhruvMht/brand_sentinel.git
+cd brand_sentinel
 psql -U postgres -c "CREATE DATABASE brandsentinel;"
 ```
 
